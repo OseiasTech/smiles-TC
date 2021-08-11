@@ -1,0 +1,6 @@
+{   
+    "baseUrl": "https://www.smiles.com.br/home",
+    "viewportWidth": 1324,
+    "viewportHeight": 850,
+    "defaultCommandTimeout": 5000
+}
