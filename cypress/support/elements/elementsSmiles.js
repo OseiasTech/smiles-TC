@@ -17,8 +17,6 @@ class PreencherCamposElements {
     passagemIda = () => {return '#firstFlights > .segmentsFlightsTemplate > .smiles__flight-search > #flightsArticle0 > :nth-child(4) > .column-miles > .miles > [style="position:relative"] > .checkbox > .flightlb'}
 
     passagemVolta = () => {return '#secondFlights > .segmentsFlightsTemplate > .smiles__flight-search > #flightsArticle0 > :nth-child(4) > .column-miles > .miles > [style="position:relative"] > .checkbox > .flightlb'}
-
-    FormaDePagTaxa = () => {return '#opt1'}
     
     condicoes = () => {return '.terms > label'}
     btnContinuar = () => {return '.button > .btn'}
