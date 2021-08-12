@@ -22,15 +22,7 @@ class PreencherCamposElements {
     btnContinuar = () => {return '.button > .btn'}
 
     login = () => {return '.main-content > h3'}
-
-    
-
-    // Validações da passagem
-    valorIda = () => {return '#firstFlights > .segmentsFlightsTemplate > .smiles__flight-search > #flightsArticle0 > :nth-child(4) > .column-miles > .miles > [style="position:relative"] > .checkbox > .flightlb'}
-    valorVolta = () => {return'#secondFlights > .segmentsFlightsTemplate > .smiles__flight-search > #flightsArticle0 > :nth-child(4) > .column-miles > .miles > [style="position:relative"] > .checkbox > .flightlb'}
-    valorTotal = () => {return '.summary-side-fare-miles-total'}
-    valorTaxa = () => {return '.summary-side-boarding-miles-value'}
-    valorTotal = () => {return '#summarytotalmilesId'}
-}
+    campoLogin = () => {return '#identifier'}
+ }
 
 export default PreencherCamposElements

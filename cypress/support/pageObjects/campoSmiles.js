@@ -42,7 +42,7 @@ PreencherCampoData() {
 
         cy.get(PreencherCampo.buscarVoou()).click()
 
-
+        cy.screenshot()
 
     }
 
@@ -58,7 +58,10 @@ selecaoDePassagem () {
 validacao() {
     cy.get(PreencherCampo.condicoes()).click()
     cy.get(PreencherCampo.btnContinuar()).click()
-    cy.get(PreencherCampo.login()).click()
+    cy.get(PreencherCampo.login()).should('contain', 'Acesse sua conta')
+
+    cy.get(PreencherCampo.campoLogin()).should('be.visible')
+
     cy.screenshot()
 }
 
